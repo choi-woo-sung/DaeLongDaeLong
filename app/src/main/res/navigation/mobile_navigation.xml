@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="kr.co.kworks.daelongdaelong.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="kr.co.kworks.daelongdaelong.ui.dashboard.DashboardFragment"
+        android:label="@string/title_gu"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_to_viewGuGridFragment"
+            app:destination="@id/viewGuGridFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="kr.co.kworks.daelongdaelong.ui.widescan.WideScanFragment"
+        android:label="@string/title_aroundserch"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/viewGuGridFragment"
+        android:name="kr.co.kworks.daelongdaelong.ui.dashboard.ViewGuGridFragment"
+        android:label="fragment_view_gu_grid"
+        tools:layout="@layout/fragment_view_gu_grid" />
+
+
+</navigation>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DaeLongDaeLong</string>
+
+    <string name="title_DaeLongDaeLong">☕대롱대롱☕</string>
+
+
+    <string name="title_home">홈으로</string>
+    <string name="title_gu">구마다 보기</string>
+    <string name="title_aroundserch">내 주변 검색</string>
+    <string name="title_menuserch">업종별 검색</string>
+
+    <string name="title_yuseong">유성구</string>
+    <string name="title_daedeokgu">대덕구</string>
+    <string name="title_donggu">동구</string>
+    <string name="title_junggu">중구</string>
+    <string name="title_seogu">서구</string>
+
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

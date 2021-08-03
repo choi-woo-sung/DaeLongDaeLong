@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827595983075",
+    "project_id": "daelongdaelong-36492",
+    "storage_bucket": "daelongdaelong-36492.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827595983075:android:5d0a43ca900dfc2e41ddd6",
+        "android_client_info": {
+          "package_name": "kr.co.kworks.daelongdaelong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827595983075-61q6i9uhlijpn6v2stik2u5f4qiqdafm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQCsGitZB6ZgQfkZs32mKrYUmak3a80GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827595983075-61q6i9uhlijpn6v2stik2u5f4qiqdafm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
